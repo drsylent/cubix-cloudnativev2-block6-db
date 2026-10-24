@@ -5,16 +5,16 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.3</version>
+        <version>4.1.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>hu.cubix.cloud</groupId>
     <artifactId>cloudnative-db</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>Cloud Native Training - DB application</name>
-    <description>Cubix Cloud Native Application Development Training Block5 - DB application</description>
+    <description>Cubix Cloud Native Application Development Training Block6 - DB application</description>
     <properties>
-        <java.version>21</java.version>
+        <java.version>25</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -41,6 +41,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-webmvc-test</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -51,7 +56,7 @@
             </plugin>
             <plugin>
                 <artifactId>maven-failsafe-plugin</artifactId>
-                <version>3.2.5</version>
+                <version>3.6.0</version>
                 <executions>
                     <execution>
                         <goals>
