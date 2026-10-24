@@ -2,9 +2,7 @@ openapi: 3.0.3
 info:
   title: Cloud Native Training - DB application
   description: |-
-    Cubix Cloud Native Application Development Training Block4 - DB application.
-  contact:
-    email: csendes.david@alerant.hu
+    Cubix Cloud Native Application Development Training Block6 - DB application.
   version: 1.0.0-SNAPSHOT
 servers:
   - url: http://localhost:8081
