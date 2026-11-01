@@ -1,0 +1,6 @@
+opencollection: 1.0.0
+
+info:
+  name: Cloud-Native Training DB
+bundled: false
+extensions: {}
